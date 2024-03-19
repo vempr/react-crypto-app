@@ -1,0 +1,57 @@
+.table-coins {
+    background-color: rgb(25, 25, 25);
+    border-collapse: collapse;
+}
+.table-coins-wrapper {
+    background-color: rgb(25, 25, 25);
+    padding: 10px;
+    border-radius: 5px;
+}
+.table-headers {
+    background-color: rgb(18, 18, 18);
+    border: 1px solid rgb(18, 18, 18);
+}
+
+.coin-row:hover {
+    background-color: rgb(35, 35, 35);
+    cursor: pointer;
+}
+.coin-row:active {
+    background-color: rgb(45, 45, 45);
+}
+
+.coin-info {
+    padding: 10px 20px 10px 20px;
+}
+.positive-change, .negative-change {
+    padding: 7px 4px 7px 4px;
+    border-radius: 8px;
+}
+.positive-change {
+    background-color: rgba(0, 255, 0, 0.2);
+    color: rgb(0, 255, 0);
+}
+.negative-change {
+    background-color: rgba(255, 0, 0, 0.2);
+    color: rgb(255, 0, 0);
+}
+.coin-image-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.coin-image {
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+tr {
+    margin: 10px;
+}
+th, td {
+    text-align: center;
+}
+th {
+    padding: 5px 7px 5px 7px;
+}

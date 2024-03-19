@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: rgb(16, 16, 16);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Rubik";
+    animation: fadeIn 0.5s ease-in-out;
+    text-align: center;
+}
+
+.version {
+    position: absolute;
+    margin: 3px;
+    top: 0px;
+    left: 0px;
+    font-size: 0.55rem;
+    opacity: 90%;
+}
+
+.web-header {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 10px 0px 30px 0px;
+}
+
+th:hover, .web-header:hover {
+    cursor: default;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    margin: 15px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+@keyframes rotation {
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+} 
+
+/*at 800px, remove hide-mobile classes, etc.*/
+@media (max-width: 800px) {
+    .hide-mobile {
+        display: none;
+    }
+    .table-coins-wrapper {
+        font-size: 0.8rem;
+    }
+    .version {
+        font-size: 0.4rem;
+    }
+    .web-header {
+        font-size: 1rem;
+        margin: 10px 0px 20px 0px;
+    }
+    .coin-info {
+        padding: 5px 10px 5px 10px;
+    }
+    .coin-image {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
