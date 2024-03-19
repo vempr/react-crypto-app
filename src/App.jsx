@@ -13,7 +13,7 @@ function App() {
 		fetchNextPage,
 		hasNextPage,
 		isFetchingNextPage,
-		isLoading
+		isLoading,
 	} = useInfiniteQuery({
 		queryKey: ["coins"],
 		queryFn: async({ pageParam = 1}) => {
