@@ -1,8 +1,12 @@
-# React Vite
+# Cryptocurrency Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This web application fetches cryptocurrency data from the CoinGecko API. The app dynamically loads more data as the user scrolls through the page.
+A demo API account is used, therefore the amount of API requests are limited.<br/>
+<b>Try it out</b>: https://vempr.github.io/crypto-react-app/
 
-Currently, two official plugins are available:
+### Credits
+This application is created by Alex Nguyen.<br/>
+React, Tanstack Query, Axios, and React Intersection Observer libraries are used for development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Version
+v1.0.0 - 19.03.2024
