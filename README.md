@@ -2,7 +2,7 @@
 
 This web application fetches cryptocurrency data from the CoinGecko API. The app dynamically loads more data as the user scrolls through the page.
 A demo API account is used, therefore the amount of API requests are limited.<br/>
-<b>Try it out</b>: https://vempr.github.io/crypto-react-app/
+<b>Try it out</b>: https://vempr.github.io/teact-crypto-app/
 
 ### Credits
 This application is created by Alex Nguyen.<br/>
